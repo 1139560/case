@@ -1,0 +1,76 @@
+PartyAgreement()
+
+main()
+
+//declare
+String Party_agreement_number
+Party Party
+Employee Party_cordinator
+Date Agreement_date
+Num Contract_price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setPartyAgreementNumber(){
+Output "Party Number
+Input Party_Agreement_Number
+}
+
+setParty(){ //dont know
+
+setParty_coordinator(){
+Party_coordinator.getname()
+}
+
+setAgreement_date(Num Month, Num Year){
+getAgreement_date.month()
+getAgreement_date.day()
+getAgreement_date.year()
+} 
+
+setContract_price(){
+Output "enter contract price"
+Input contract price
+}
+
+getParty_agreement_number(){
+return Num : agreement_number
+}
+
+getParty(){ 
+return Party
+}
+getParty_coordinator(){
+return Party_coordinator
+}
+
+getagreement_date(){
+return agreement_date
+} 
+
+getcontract_price(){
+return Contract_price
+}
+
+
+

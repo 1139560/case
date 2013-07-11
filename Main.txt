@@ -1,0 +1,22 @@
+Main()
+//declare
+Party_Agreement 
+ Address_format
+Address address
+Party party
+Employee Employee_name
+ContactPerson person
+Name name
+
+Num Month
+Num Day
+Num Year
+String Address
+
+1
+
+party.setSchool()
+address_format = Address.outputAddress() 
+Output "enter Month"
+Input Month
+party.setParty_date(Num Month, Num Year)

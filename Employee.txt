@@ -1,0 +1,54 @@
+Employee()
+//declare
+String ID_number
+String Name name
+String Address Address
+String Hire_date
+Num Hourly_pay_rate
+
+//declaire method
+getID_number()
+getname()
+setID_number()
+setname()
+
+
+
+getID_number(){
+	return ID_number
+}
+getname(){
+	return name
+}
+getAddress(){
+	return Address
+}
+getHire_date(){
+	return Hire_date
+}
+getHourly_pay_rate(){
+	return Hourly_pay_rate
+}
+
+
+setID_number(){
+	Output "enter ID_number"
+	input ID_number
+}
+setname(){
+	name.name()
+}
+setAddress(){
+	Address.setStreet_Address()
+	Address.setCity()
+	Address.setState()
+	Address.setZip_code()
+}
+setHire_date(){
+	Output "enter higher date"
+	Input Hire_date
+}
+Hourly_Pay_Rate(){
+	Output "input pay rate"
+	input Hourly_pay_rate
+}

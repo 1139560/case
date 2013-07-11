@@ -1,0 +1,50 @@
+Party()
+
+//declare
+String ID_number
+School school_name
+School school_address
+Date Party_date
+Num Number_of_guests
+ContactPerson Contact_person
+
+//declare method
+
+getID_number(){
+return ID_number
+}
+getSchool(){
+return school
+}
+getParty_date(){
+return Party_date
+}
+getNumber_of_guests(){
+return Number_of_guest
+}
+getContact_person(){
+return Contact_person
+}
+
+
+
+setID_number(){
+Output "enter Id_number"
+Input ID_number
+}
+setSchool(){
+school.setSchool_name()
+school.setSchool_Address()
+}
+setParty_date(Num month, Num year){
+Party_date.getmonth(month)
+Party_date.getday()
+Party_date.getyear(year)
+}
+setNumber_of_guests(){
+Output "enter number of guest"
+Input Number_of_guest
+}
+setContact_person(){
+Contact_person.getname()
+}

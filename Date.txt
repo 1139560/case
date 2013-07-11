@@ -1,0 +1,70 @@
+Date()
+
+
+//declare
+Num month = -1
+Num day
+Num year
+// method declare
+getmonth()
+setmonth()
+getday()
+setday()
+getyear()
+setyear()
+//
+
+getmonth(){
+return month
+}
+
+
+setmonth(Num month)  {
+	While month <1 OR >12
+		Output "please enter a valid month"
+		Input month
+	EndWhile
+
+	this.month = month
+}
+getday(){
+return day
+}
+setday(){
+	if (month == -1) {
+		Output "month has not been set yet."
+		Output "please enter a valid month"
+		Input amonth
+		setmonth(amonth)
+	}
+	Output “enter day of reunion”
+	Input day
+	If (month == 1 OR month == 3 OR month == 5 OR month == 7 OR month == 8 OR month == 10 OR month == 12) 
+	{
+		While (day <1 or >31){
+			Output “Please Enter a day between 1-31”
+			Input day
+		}
+	} Else If (month == 4 OR month == 6 OR month == 9 OR month == 11)
+	{
+		While (day <1 or >30) {
+			Output “Please Enter a day between 1-30”
+			Input day
+		}
+	} Else If (month == 2)
+	{
+		While (day <1 or >28) {
+			Output “Please Enter a day between 1-28”
+			Input day
+		}
+	}
+}
+
+getyear() {
+return year
+}
+setyear(Num year)
+While (year < 2013) {
+Ouput "year must be in the future"
+Input year
+}

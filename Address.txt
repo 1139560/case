@@ -1,0 +1,49 @@
+Class Address() {
+
+//declair
+String Street_Address = "-1"
+Private String City
+String State
+String Zip_code
+
+//method declair
+
+getStreet_Address(){
+return Street_Adress
+}
+setStreet_Address(){
+	if(Street_Address == "-1"){
+		Ouput "enter Street Address"
+		Input Street_Address
+	}
+	
+}
+getCity(){
+return City()
+}
+setCity(){
+	Ouput "Enter City"
+	Input City
+	
+}
+getState(){
+	return State
+}
+setState(){
+	Output "type State"
+	Input State
+	
+}
+getZip_code(){
+	return Zip_code
+}
+setZip_code(){
+	Output "enter zipcode"
+	Input Zip_code
+	
+}
+String outputAddress () {
+	String theAddress  = Street_Address + ", " + City + ", " + Zip_code
+	return theAddress
+}
+}

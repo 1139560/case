@@ -1,0 +1,41 @@
+School()
+//declare variable
+
+
+//declare
+String School_name 
+Address School_Address
+
+
+
+
+
+
+//method declare
+getSchool_name()
+setSchool_name()
+getSchool_Address()
+setSchool_Address()
+
+
+getSchool_name(){
+return School_name
+}
+
+setSchool_name() {
+Ouput "enter the name of your school"
+Input School_name
+}
+
+getSchool_Address(){
+return School_Address()
+}
+setSchool_Address(){
+	
+	School_Address.setStreet_Address()
+	School_Address.setCity()
+	School_Address.setState()
+	School_Address.setZip_code()
+
+}
+
